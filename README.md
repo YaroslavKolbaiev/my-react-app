@@ -1,5 +1,7 @@
 # Test app for Mate Academy
 
+(Demo)[https://yaroslavkolbaiev.github.io/my-react-app/]
+
 Checking skills: react, redux, react-router
 
 ## Task
