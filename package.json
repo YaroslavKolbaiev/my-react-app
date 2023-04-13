@@ -1,5 +1,6 @@
 {
   "name": "my-react-app",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,12 +11,13 @@
     "@testing-library/user-event": "^13.5.0",
     "bulma": "^0.9.4",
     "classnames": "^2.3.2",
+    "eslint-config-standard": "^17.0.0",
+    "firebase": "^9.19.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.4.3",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -24,12 +26,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
@@ -44,7 +40,10 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-plugin-react": "^7.31.11",
     "gh-pages": "^4.0.0",
-    "node-sass": "^8.0.0"
+    "node-sass": "^8.0.0",
+    "stylelint-config-standard": "^29.0.0"
   }
 }
