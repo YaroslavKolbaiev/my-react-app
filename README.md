@@ -2,7 +2,7 @@
 
 [Demo](https://yaroslavkolbaiev.github.io/my-react-app/)
 
-Checking skills: react, redux, react-router
+Checking skills: react, redux, react-router, auth, firebase
 
 ## Task
 
@@ -16,4 +16,3 @@ Implement an app that can display the following pages:
 ## Optional 
 
 use Firebase for authorization
-
