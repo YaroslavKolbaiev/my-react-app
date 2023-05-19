@@ -4,7 +4,7 @@ import { HomePage } from "./pages/HomePage";
 import { Login } from "./pages/Login";
 import { News } from "./pages/News";
 import { Profile } from "./pages/Profile";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { LoginGoogle } from "./pages/LoginGoogle";
 import { FirebaseAuthService } from "./firebase/FirebaseAuthService";
 import { useDispatch } from "react-redux";
@@ -18,6 +18,7 @@ export const App = () => {
   useEffect(() => {
     FirebaseAuthService.subscribeToAuthChanges(checkUser);
   }, []);
+
   return (
     <>
       <MainNav />
