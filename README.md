@@ -8,7 +8,7 @@ Checking skills: react, redux, react-router, auth, firebase
 
 Implement an app that can display the following pages:
 
-- / - home 
+- /home 
 - /login - login and password entry page
 - /news - news page(any information of the same type)just show some
 - /profile - a page with free text, unavailable without authorization
